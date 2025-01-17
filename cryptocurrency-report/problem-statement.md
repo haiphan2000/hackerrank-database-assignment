@@ -9,7 +9,7 @@ There were multiple price records for Bitcoin (BTC) and Ethereum (ETH) at variou
 
 The report should be sorted by currency and then by date, both in ascending order.
 
-## Schema
+## ▼ Schema
 
 There are two tables: `btc_price` and `eth_price`.
 
@@ -27,7 +27,7 @@ There are two tables: `btc_price` and `eth_price`.
 | dt   | TIMESTAMP | The timestamp when the price was recorded |
 | price| DECIMAL   | The price at the recorded time     |
 
-## Sample Data Tables
+## ▼ Sample Data Tables
 
 ### btc_price
 
@@ -55,7 +55,7 @@ There are two tables: `btc_price` and `eth_price`.
 | 2/3/2024 09:10:15| 2154.89  |
 | 2/3/2024 20:20:20| 3292.62  |
 
-## Sample Output
+## ▼ Sample Output
 
 | currency | date     | price   | previous_day_last_price | price_change |
 |----------|----------|---------|-------------------------|--------------|
