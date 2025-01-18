@@ -35,6 +35,7 @@ WITH new_prices AS (
     price
     FROM merge_prices
 )
+```
 
 To get the price at the end of the day, I have 2 approaches:
 
